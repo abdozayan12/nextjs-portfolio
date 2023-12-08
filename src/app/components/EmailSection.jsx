@@ -34,8 +34,12 @@ const EmailSection = () => {
     const resData = await response.json();
 
     if (response.status === 200) {
-      console.log("Message sent.");
+      // console.log("Message sent.");
       setEmailSubmitted(true);
+      // Reset the form after 5 seconds
+    setTimeout(() => {
+      setEmailSubmitted(false);
+    }, 2000);
     }
   };
 
@@ -56,10 +60,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/abdozayan12">
+          <Link href="https://github.com/abdozayan12" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/abdozayan/">
+          <Link href="https://www.linkedin.com/in/abdozayan/" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
