@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <Link href="/about">
         <a>
-          <Image src="/images/me.png" alt="Logo" width={150} height={50} />
+          <Image src="/images/Abdo Zayan.png" alt="Logo" width={150} height={50} />
         </a>
       </Link>
       {/* rest of your footer code */}
