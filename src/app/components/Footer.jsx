@@ -9,7 +9,7 @@ function Footer() {
           <Image src="/images/Abdo Zayan.png" alt="Logo" width={150} height={50} />
         </a>
       </Link>
-      <p>All rights reserved</p>
+      <p style={{ paddingRight: '30px' }}>All rights reserved</p>
     </footer>
   )
 }
