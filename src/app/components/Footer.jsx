@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Footer() {
   return (
     <footer style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-      <Link href="/about">
+      <Link href="/">
         <a>
           <Image src="/images/Abdo Zayan.png" alt="Logo" width={150} height={50} />
         </a>
