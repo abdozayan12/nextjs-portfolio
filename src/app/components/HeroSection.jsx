@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Hi, I'm Abd el hakim Zayan, and I am a full-stack web developer. I am excited to learn and develop my skills to pursue a fulfilling career in the tech industry.           </p>
+          Hi, I&apos;m Abd el hakim Zayan, and I am a full-stack web developer. I am excited to learn and develop my skills to pursue a fulfilling career in the tech industry.           </p>
           <div>
             <Link
               href="/#contact"
