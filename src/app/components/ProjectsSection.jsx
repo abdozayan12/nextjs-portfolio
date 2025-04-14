@@ -11,8 +11,8 @@ const projectsData = [
     description: "The Conference Page is a responsive and dynamic website created using HTML, CSS and javascript.",
     image: "/images/projects/conference.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/abdozayan12/capstone-project---Conference-page",
-    previewUrl: "https://abdozayan12.github.io/capstone-project---Conference-page/",
+    gitUrl: "https://github.com/abdozayan12/Conference-page",
+    previewUrl: "https://abdozayan12.github.io/Conference-page/",
   },
   {
     id: 2,
